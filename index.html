@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis & Replacement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Real-Time Text Analysis & String Replacement</h1>
+        <textarea id="textInput" placeholder="Type here..." rows="10" cols="50"></textarea>
+
+        <div class="stats">
+            <p>Unique Words: <span id="uniqueWords">0</span></p>
+            <p>Character Count (Excluding Spaces & Punctuation): <span id="charCount">0</span></p>
+        </div>
+
+        <div class="replace-section">
+            <input type="text" id="searchString" placeholder="Find String" />
+            <input type="text" id="replaceString" placeholder="Replace With" />
+            <button id="replaceBtn">Replace All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
